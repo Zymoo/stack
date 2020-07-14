@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <b-navbar toggleable="lg" type="light" variant="info">
+    <b-navbar-brand :href="'/'">
+      Home
+    </b-navbar-brand>
+    </b-navbar>
     <img src="./assets/busy.jpg" width="100%">
     <router-view/>
   </div>

@@ -23,7 +23,7 @@ export default {
         },
         {
           label: 'Time of arrival',
-          field: 'estimatedTime',
+          field: 'timestamp',
           width: '25%'
         },
         {
